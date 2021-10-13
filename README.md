@@ -2,3 +2,4 @@
 
 Implemented:
 - [Stack](/stack)
+- [Linked List](/list)
