@@ -9,3 +9,4 @@ There is implementation of algorithms and data structures from course of masters
 - [Linked List](/list/list.go)
 - Sorting algorithms:
   - [Bubble Sort](/sort/bubble.go)
+  - [Selection Sort](/sort/selection.go)

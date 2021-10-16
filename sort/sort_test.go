@@ -10,6 +10,7 @@ func TestSortFunctions(t *testing.T) {
 		name string
 	}{
 		{BubbleSort, "BubbleSort"},
+		{SelectionSort, "SelectionSort"},
 	}
 
 	for _, sortFunc := range sortFunctions {
