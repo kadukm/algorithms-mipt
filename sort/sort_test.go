@@ -22,7 +22,7 @@ func TestSortFunctions(t *testing.T) {
 
 			actualResult := sortFunc.sort(test.data)
 
-			if !equals(actualResult, test.expected) {
+			if !intSlicesEqual(actualResult, test.expected) {
 				t.Errorf("%s failed on %v: actualResult is %v but expected %v",
 					sortFunc.name, rawData, actualResult, test.expected)
 			}
@@ -46,7 +46,7 @@ type testCase struct {
 	data, expected []int
 }
 
-func equals(a, b []int) bool {
+func intSlicesEqual(a, b []int) bool {
 	if len(a) != len(b) {
 		return false
 	}
