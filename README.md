@@ -10,3 +10,4 @@ There is implementation of algorithms and data structures from course of masters
 - Sorting algorithms:
   - [Bubble Sort](/sort/bubble.go)
   - [Selection Sort](/sort/selection.go)
+  - [Merge Sort](/sort/merge.go)

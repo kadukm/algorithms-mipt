@@ -11,6 +11,7 @@ func TestSortFunctions(t *testing.T) {
 	}{
 		{BubbleSort, "BubbleSort"},
 		{SelectionSort, "SelectionSort"},
+		{MergeSort, "MergeSort"},
 	}
 
 	for _, sortFunc := range sortFunctions {
