@@ -13,3 +13,5 @@ There is implementation of algorithms and data structures from course of masters
   - [Merge Sort](/sort/merge.go)
   - [Counting Sort](/sort/counting.go)
   - [Quick Sort](/sort/quick.go)
+- Searching algorithms:
+  - [Binary Search](/search/binary.go)
