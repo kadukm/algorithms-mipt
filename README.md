@@ -15,3 +15,4 @@ There is implementation of algorithms and data structures from course of masters
   - [Quick Sort](/sort/quick.go)
 - Searching algorithms:
   - [Binary Search](/search/binary.go)
+  - [Ternary Search](/search/ternary.go)
