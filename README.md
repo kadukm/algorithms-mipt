@@ -2,7 +2,7 @@
 
 Moscow Institute of Physics and Technology (MIPT) - Algorithms and Data Structures
 
-There is implementation of algorithms and data structures from course of masters degree program by MIPT
+There is implementation of algorithms and data structures from the course of master's degree program by MIPT
 
 ## Implemented:
 - [Stack](/stack/stack.go)
@@ -16,3 +16,6 @@ There is implementation of algorithms and data structures from course of masters
 - Searching algorithms:
   - [Binary Search](/search/binary.go)
   - [Ternary Search](/search/ternary.go)
+- Hash Tables:
+  - [Separate chaining Hash Table](/hashtables/separate_chaining_hash_table.go)
+  - [Open addressing Hash Table](/hashtables/open_addressing_hash_table.go)
