@@ -19,3 +19,6 @@ There is implementation of algorithms and data structures from the course of mas
 - Hash Tables:
   - [Separate chaining Hash Table](/hashtables/separate_chaining_hash_table.go)
   - [Open addressing Hash Table](/hashtables/open_addressing_hash_table.go)
+- Graph traversal algorithms:
+  - [Depth-First Search](/graphtraversal/dfs.go)
+  - [Breadth-First Search](/graphtraversal/bfs.go)
