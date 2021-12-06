@@ -23,3 +23,5 @@ There is implementation of algorithms and data structures from the course of mas
   - [Depth-First Search](/graphtraversal/dfs.go)
   - [Breadth-First Search](/graphtraversal/bfs.go)
 - [Bridge-finding algorithm](/bridgefinding/bridgefinding.go)
+- Path finding algorithms
+  - [Dijkstra’s algorithm](/pathfinding/dijkstra.go)
