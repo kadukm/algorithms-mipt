@@ -5,7 +5,7 @@ import "math"
 func FindDijkstraPath(g Graph, from, to int) WeightedPath {
 	parent := make([]int, len(g))
 	visited := make([]bool, len(g))
-	weights := createDijkstraWeights(g, from)
+	weights := createWeights(g, from)
 
 	for {
 		node, exists := findMinWeightNode(g, weights, visited)
@@ -28,16 +28,6 @@ func FindDijkstraPath(g Graph, from, to int) WeightedPath {
 	}
 }
 
-func createDijkstraWeights(g Graph, from int) []int {
-	weights := make([]int, len(g))
-	for i := 0; i < len(g); i++ {
-		weights[i] = math.MaxInt
-	}
-	weights[from] = 0
-
-	return weights
-}
-
 func findMinWeightNode(g Graph, weights []int, visited []bool) (int, bool) {
 	minWeight := math.MaxInt
 	minWeightIdx := -1
@@ -54,22 +44,4 @@ func findMinWeightNode(g Graph, weights []int, visited []bool) (int, bool) {
 	} else {
 		return minWeightIdx, true
 	}
-}
-
-func extractPath(parent []int, from, to int, weight int) WeightedPath {
-	reversedPath := make([]int, 0, 16)
-	reversedPath = append(reversedPath, to)
-
-	node := to
-	for node != from {
-		node = parent[node]
-		reversedPath = append(reversedPath, node)
-	}
-
-	path := make([]int, 0, len(reversedPath))
-	for i := len(reversedPath) - 1; i >= 0; i-- {
-		path = append(path, reversedPath[i])
-	}
-
-	return WeightedPath{path, weight, true}
 }
