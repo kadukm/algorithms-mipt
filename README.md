@@ -26,3 +26,4 @@ There is implementation of algorithms and data structures from the course of mas
 - Path finding algorithms
   - [Dijkstra’s algorithm](/pathfinding/dijkstra.go)
   - [Bellman–Ford algorithm](/pathfinding/bellman_ford.go)
+  - [Floyd–Warshall algorithm](/pathfinding/floyd_warshall.go)
