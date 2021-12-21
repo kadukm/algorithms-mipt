@@ -27,3 +27,6 @@ There is implementation of algorithms and data structures from the course of mas
   - [Dijkstra’s algorithm](/pathfinding/dijkstra.go)
   - [Bellman–Ford algorithm](/pathfinding/bellman_ford.go)
   - [Floyd–Warshall algorithm](/pathfinding/floyd_warshall.go)
+- Heaps
+  - [Binary Heap](/heaps/binary_heap.go)
+  - [Randomized Heap](/heaps/randomized_heap.go)
