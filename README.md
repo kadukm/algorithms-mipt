@@ -4,7 +4,7 @@ Moscow Institute of Physics and Technology (MIPT) - Algorithms and Data Structur
 
 There is implementation of algorithms and data structures from the course of master's degree program by MIPT
 
-## Implemented:
+## Implemented
 - [Stack](/stack/stack.go)
 - [Linked List](/list/list.go)
 - Sorting algorithms:
@@ -30,3 +30,6 @@ There is implementation of algorithms and data structures from the course of mas
 - Heaps
   - [Binary Heap](/heaps/binary_heap.go)
   - [Randomized Heap](/heaps/randomized_heap.go)
+- Treaps
+  - [Treap (Randomized Binary Search Tree)](/treaps/bst/randomized_bst.go)
+  - [Implicit Treap](/treaps/implicit/implicit_treap.go)
