@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/kadukm/algorithms-mipt/branch/master/graph/badge.svg?token=BHHFVEOAF9)](https://codecov.io/gh/kadukm/algorithms-mipt)
+
 # algorithms-mipt
 
 Moscow Institute of Physics and Technology (MIPT) - Algorithms and Data Structures
