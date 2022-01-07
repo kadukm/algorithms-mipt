@@ -35,3 +35,4 @@ There is implementation of algorithms and data structures from the course of mas
 - Treaps
   - [Treap (Randomized Binary Search Tree)](/treaps/bst/randomized_bst.go)
   - [Implicit Treap](/treaps/implicit/implicit_treap.go)
+- [Disjoint Set](/disjointset/disjoint_set.go)
