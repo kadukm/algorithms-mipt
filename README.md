@@ -39,3 +39,4 @@ There is implementation of algorithms and data structures from the course of mas
 - [Segment Tree](/segmenttree/segment_tree.go)
 - Substring search algorithms:
   - [Z-function](/substring/z_function.go)
+  - [Knuth–Morris–Pratt algorithm](/substring/knuth_morris_pratt.go)

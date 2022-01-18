@@ -9,6 +9,7 @@ type SubstringSearch struct {
 
 var algorithms = []SubstringSearch{
 	{ZFunctionSubstringSearch, "ZFunction"},
+	{KnuthMorrisPrattAlgorithm, "KnuthMorrisPratt"},
 }
 
 func TestSubstringSearchAlgorithms(t *testing.T) {
