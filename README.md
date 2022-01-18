@@ -37,3 +37,5 @@ There is implementation of algorithms and data structures from the course of mas
   - [Implicit Treap](/treaps/implicit/implicit_treap.go)
 - [Disjoint Set](/disjointset/disjoint_set.go)
 - [Segment Tree](/segmenttree/segment_tree.go)
+- Substring search algorithms:
+  - [Z-function](/substring/z_function.go)
