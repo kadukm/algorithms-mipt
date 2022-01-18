@@ -1,6 +1,7 @@
 package substring
 
-// KnuthMorrisPrattAlgorithm searches first index of substring in text or 0 if text doesn't contain substring
+// KnuthMorrisPrattAlgorithm searches first index of substring in text or 0 if text doesn't contain substring.
+// It cannot work correctly with text containing symbol '#'
 func KnuthMorrisPrattAlgorithm(text, substring string) int {
 	if len(text) == 0 || len(substring) > len(text) {
 		return -1
