@@ -40,3 +40,4 @@ There is implementation of algorithms and data structures from the course of mas
 - Substring search algorithms:
   - [Z-function](/substring/z_function.go)
   - [Knuth–Morris–Pratt algorithm](/substring/knuth_morris_pratt.go)
+- [Trie](/trie/trie.go)
