@@ -32,15 +32,17 @@ func (s *disjointSet) MakeSet(value int) error {
 }
 
 func (s *disjointSet) Union(value1, value2 int) error {
-	r1, ok := s.data[value1]
+	_, ok := s.data[value1]
 	if !ok {
 		return errors.New(fmt.Sprintf("value %d is not in any set", value1))
 	}
+	r1 := s.findInternal(value1)
 
-	r2, ok := s.data[value2]
+	_, ok = s.data[value2]
 	if !ok {
 		return errors.New(fmt.Sprintf("value %d is not in any set", value2))
 	}
+	r2 := s.findInternal(value2)
 
 	if r1 == r2 {
 		return nil

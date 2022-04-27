@@ -159,3 +159,28 @@ func TestUnionSameElements(t *testing.T) {
 		t.Fatalf("representative for element 666 was expected to be 666 but was %d", representative)
 	}
 }
+
+func TestUnionFewSets(t *testing.T) {
+	set := NewDisjointSet()
+	for i := 0; i < 10; i++ {
+		_ = set.MakeSet(i)
+	}
+
+	_ = set.Union(2, 1)
+	_ = set.Union(4, 3)
+
+	_ = set.Union(2, 3)
+
+	_ = set.Union(6, 5)
+	_ = set.Union(7, 5)
+	_ = set.Union(8, 5)
+
+	_ = set.Union(3, 5)
+
+	representative1, _ := set.Find(2)
+	representative2, _ := set.Find(4)
+
+	if representative1 != representative2 {
+		t.Fatal("representatives for elements 2 and 4 should be equal")
+	}
+}
